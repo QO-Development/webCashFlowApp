@@ -1,0 +1,43 @@
+/* .navbar {
+    background-color:#e1e8f0;
+} */
+
+.tableHeader {
+    margin-top: 50px; 
+    margin-bottom: 50px; 
+    text-align: center;
+}
+
+.flowsTable {
+    height: 300px;
+    border: 2px solid #e62739;
+    border-radius: 5px;
+}
+
+.buttonRow {
+    margin-top: 5px; 
+    margin-bottom: 5px; 
+}
+
+.tableButton {
+    margin-left: 10px; 
+    border: 2px solid #6ed3cf;
+    color: #6ed3cf;
+}
+
+.tableButton:hover {
+    background-color: #6ed3cf;
+    color: white; 
+}
+
+/* 
+
+Light Blue Green: #6ed3cf
+
+Soft Purple: #9068be
+
+Tasty Eighties Grey: #e1e8f0
+
+Rich Red: #e62739
+
+*/   
