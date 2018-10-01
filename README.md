@@ -1,0 +1,1 @@
+Side project for getting better at Bootstrap, HTML, CSS, and JS. 
