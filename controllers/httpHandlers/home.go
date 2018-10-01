@@ -1,6 +1,7 @@
 package httpHandlers
 
 import (
+	"errors"
 	"html/template"
 	"net/http"
 
@@ -15,6 +16,8 @@ func init() {
 
 //Home is the http handler for the "/" path
 func Home(w http.ResponseWriter, r *http.Request) {
+
+	errorLog.Write("test", errors.New("hello"))
 
 	err := tpl.ExecuteTemplate(w, "home.gohtml", nil)
 	if err != nil {
